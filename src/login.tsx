@@ -147,6 +147,9 @@ const Login: React.FC = () => {
           <button type="submit">Login</button>
           <button onClick={() => navigate('/signup')}>Don't have an account</button>
         </form>
+        <div className="anim">
+          <h1>SkillXChange</h1>
+        </div>
       </div>
   );
   
